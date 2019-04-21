@@ -35,6 +35,7 @@ function displayGif() {
 
          //creating a paragraph tag with the result item's rating
          var p = $("<p>").text("Rating: " + rating);
+         p.addClass("rate");
 
          // Creating an image tag
          var movieImage = $("<img>");

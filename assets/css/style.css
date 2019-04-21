@@ -5,8 +5,40 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#buttons-view{
+    margin: 5px;
+}
 .movie-btn{
     margin: 4px;
     font-weight: bold;
     font-size: 16px;
+}
+input{
+    margin-top: 15px;
+}
+label{
+    background-color: black;
+    padding: 5px;
+    font-weight: bold;
+    color:white;
+    margin-right: 5px;
+}
+movie-input{
+    margin-right: 0PX;
+}
+add-movie{
+ margin-left: 0px;
+}
+.gifs{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+.movieImage{
+    height: 150px;
+    width: 150px;
+}
+.rate{
+    background-color: blue;
+    color: white;
 }
